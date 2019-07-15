@@ -1,0 +1,509 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/regular/NotoSans-Regular.woff2') format('woff2'), url('../fonts/regular/NotoSans-Regular.woff') format('woff'), url('../fonts/regular/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans Bold';
+  src: url('../fonts/bold/NotoSans-Bold.woff2') format('woff2'), url('../fonts/bold/NotoSans-Bold.woff') format('woff'), url('../fonts/bold/NotoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+.paddingsiz {
+  padding: 0px;
+}
+.menu {
+  z-index: 1000!important;
+}
+.menu .navbar-default {
+  background: transparent;
+  border: none;
+}
+.menu .navbar-nav > li > .dropdown-menu {
+  border: none;
+}
+.menu .first-menu {
+  padding-left: 0px !important;
+}
+.menu .navbar-default .navbar-nav > li > a {
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+  font-family: 'Noto Sans';
+  text-transform: uppercase;
+}
+.menu .navbar-default .navbar-nav > li > a:hover,
+.menu .navbar-default .navbar-nav > li > a:focus {
+  color: #d24a43;
+}
+.menu .mega-dropdown {
+  position: static !important;
+}
+.menu .mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.menu .mega-dropdown-menu img {
+  max-width: 100%;
+  max-height: 190px;
+  text-align: center;
+}
+.menu .mega-dropdown-menu > .container > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.menu .mega-dropdown-menu > .container > li > ul > li {
+  list-style: none;
+}
+.menu .mega-dropdown-menu > .container > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  padding-left: 0px;
+  clear: both;
+  color: #757575;
+  font-family: 'Noto Sans';
+  font-size: 15px;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.menu .mega-dropdown-menu > .container > li ul > li > a:hover,
+.menu .mega-dropdown-menu > .container > li ul > li > a:focus {
+  color: black;
+  font-family: 'Noto Sans Bold';
+  text-decoration: none;
+}
+.menu .mega-dropdown-menu .dropdown-header {
+  padding-left: 0px;
+  color: #3f3e3e;
+  font-size: 17px;
+  font-family: 'Noto Sans Bold';
+}
+.menu .mega-dropdown-menu form {
+  margin: 3px 20px;
+}
+.menu .mega-dropdown-menu .form-group {
+  margin-bottom: 3px;
+}
+.menu .navbar-default .navbar-nav > .open > a,
+.menu .navbar-default .navbar-nav > .open > a:focus,
+.menu .navbar-default .navbar-nav > .open > a:hover {
+  color: #d24a43;
+  background-color: white;
+}
+.menu .glyphicon-chevron-down {
+  color: black;
+  font-size: 10px;
+  margin-left: 6px;
+  margin-top: 4px;
+  font-weight: lighter;
+}
+.soyalar {
+  background: rgba(0, 0, 0, 0.4);
+}
+.karusel .carousel .item img {
+  width: 100%;
+}
+.karusel .carousel .item .carousel-caption {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  text-align: left;
+  color: #161616;
+  font-size: 33px;
+  font-family: 'Noto Sans Bold';
+  text-transform: uppercase;
+}
+.karusel .carousel .item .tugma4 {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Noto Sans Bold';
+  color: black;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.karusel .carousel .item .tugma4 .btn {
+  border: 2px solid #b3b8bc;
+  border-radius: 20px;
+  background: transparent;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+.karusel .carousel .item .tugma4 .btn:hover,
+.karusel .carousel .item .tugma4 .btn:focus {
+  background: #b3b8bc;
+}
+.karusel .carousel .item .tugma4 .btn:hover a,
+.karusel .carousel .item .tugma4 .btn:focus a {
+  color: black;
+}
+.karusel .carousel .item .tugma4 a {
+  color: black;
+  text-transform: uppercase;
+}
+.karusel .carousel .carousel-indicators {
+  position: absolute;
+  left: 10%;
+  bottom: 70px;
+}
+.karusel .carousel .carousel-indicators li {
+  background: #b8b8b9;
+  border: 5px solid #e6eaef;
+  height: 20px;
+  width: 20px;
+}
+.karusel .carousel .carousel-indicators .active {
+  background: black;
+}
+.magazin {
+  margin-top: 0px !important;
+  background: #242424 !important;
+}
+.magazin .spiska {
+  font-size: 12px;
+  color: #8a8a8a;
+  font-family: 'Noto Sans';
+  position: absolute;
+  top: 11px;
+  margin-left: 10px;
+}
+.magazin .spiska a {
+  color: #dadada;
+  margin-right: 15px;
+}
+.search .sena input {
+  background: transparent;
+}
+.oq {
+  background: white;
+}
+.korzina {
+  margin-top: 12px;
+}
+.korzina a {
+  color: #757575;
+  font-size: 15px;
+  font-family: 'Noto Sans';
+  transition: 0.5s;
+}
+.korzina a:hover,
+.korzina a:focus {
+  color: black;
+  text-decoration: none;
+}
+.korzina a img {
+  margin-right: 7px;
+}
+.pagers .pagination li a {
+  color: black;
+  font-size: 15px;
+  font-family: 'Noto Sans Bold';
+  background: none;
+  border: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-decoration: underline;
+}
+.pagers .pagination .active a {
+  color: #757575;
+  text-decoration: none;
+}
+.reklama img {
+  width: 100%;
+  transition: 1s;
+  max-height: 488px;
+}
+.reklama img:hover,
+.reklama img:focus {
+  box-shadow: -5px 5px 3px #000, 5px -5px 3px #000;
+}
+.before .tovar {
+  margin-top: 0px;
+  border-top: 1px solid #f1efef;
+}
+.name4 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 17px;
+  font-family: 'Noto Sans';
+}
+.name4 img {
+  margin-right: 10px;
+}
+.name4 span {
+  font-family: 'Noto Sans Bold';
+}
+.more {
+  background: url('../image/back1.jpg');
+  background-size: 100% 100%;
+  padding-top: 75px;
+  margin-top: -30px;
+}
+.more h3 {
+  color: #161616;
+  font-size: 36px;
+  font-family: 'Noto Sans Bold';
+  text-transform: uppercase;
+}
+.more h5 {
+  text-transform: uppercase;
+  color: #3f3e3e;
+  font-size: 26px;
+  font-family: 'Noto Sans';
+}
+.more .tugma6 {
+  margin-top: 50px;
+}
+.more .tugma6 a {
+  font-size: 16px;
+  color: black;
+  font-family: 'Noto Sans Bold';
+  text-transform: uppercase;
+  border: 2px solid #a6a9a2;
+  border-radius: 30px;
+  padding: 12px 30px;
+  transition: 1s;
+}
+.more .tugma6 a:hover,
+.more .tugma6 a:focus {
+  background: #a6a9a2;
+}
+.more .icons {
+  margin-top: 60px;
+  background: white;
+}
+.more .icons .padding {
+  padding-left: 20px;
+}
+.more .icons .free {
+  font-size: 23px;
+  font-family: 'Noto Sans Bold';
+  color: #d24a43;
+  text-transform: uppercase;
+}
+.more .icons .number {
+  font-size: 20px;
+  font-family: 'Noto Sans Bold';
+  color: #d24a43;
+}
+.more .icons .number span {
+  font-family: 'Noto Sans';
+  margin-left: 5px;
+}
+.more .icons .black {
+  font-size: 18px;
+  font-family: 'Noto Sans';
+  color: black;
+  text-transform: uppercase;
+}
+.more .icons .col-md-4 {
+  border: 1px solid #f7f7f7;
+  border-bottom: 4px solid #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 65px;
+  height: 180px;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .menu .navbar-default .navbar-nav > li > a {
+    font-size: 13px;
+  }
+  .karusel .carousel .item .carousel-caption {
+    top: 25%;
+  }
+  .karusel .carousel .carousel-indicators {
+    left: 13%;
+    bottom: 30px;
+  }
+  .reklama img {
+    max-height: 400px;
+  }
+  .more .icons .col-md-4 {
+    padding-left: 15px;
+  }
+  .more .icons .black {
+    font-size: 17px;
+  }
+  .more .icons .free {
+    font-size: 20px;
+  }
+  .more .icons .number {
+    font-size: 18px;
+  }
+  .more {
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .menu .glyphicon-chevron-down {
+    font-size: 8px;
+    margin-left: 2px;
+  }
+  .menu .navbar-default .navbar-nav > li > a {
+    font-size: 11px;
+    padding-right: 3px;
+  }
+  .menu .mega-dropdown-menu > .container > li > ul > li > a {
+    font-size: 13px;
+  }
+  .menu .mega-dropdown-menu .dropdown-header {
+    font-size: 15px;
+  }
+  .karusel .carousel .item .carousel-caption {
+    top: 10%;
+  }
+  .karusel .carousel .carousel-indicators {
+    left: 13%;
+    bottom: 20px;
+  }
+  .korzina a {
+    font-size: 13px;
+  }
+  .more .icons .col-md-4 {
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 120px;
+  }
+  .more .icons .free {
+    font-size: 15px;
+  }
+  .more .icons .black {
+    font-size: 13px;
+  }
+  .more .icons .number {
+    font-size: 14px;
+  }
+  .more img {
+    width: 50px;
+  }
+  .more {
+    padding-top: 40px;
+  }
+  .more .tugma6 {
+    margin-top: 20px;
+  }
+  .more h3 {
+    font-size: 29px;
+  }
+  .more h5 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .xs-paddingsiz {
+    padding: 0px;
+  }
+  header {
+    position: relative;
+    padding: 20px 0px;
+  }
+  .input-group .form-control {
+    border-radius: 0px;
+  }
+  .go {
+    border-radius: 0px !important;
+  }
+  .logo {
+    margin-bottom: 15px;
+  }
+  .languages {
+    position: absolute;
+    right: 0%;
+  }
+  .kichik {
+    width: auto !important;
+  }
+  .navbar-default .navbar-toggle {
+    border: none;
+  }
+  .navbar-default {
+    text-align: center;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+  }
+  .enter {
+    margin-left: -60px !important;
+  }
+  .menu .first-menu {
+    padding-left: 15px !important;
+  }
+  .menu .navbar-nav > li > .dropdown-menu {
+    text-align: center;
+  }
+  .mega-dropdown-menu .dropdown-header {
+    margin-top: 15px;
+  }
+  .navbar-nav .open .dropdown-menu .dropdown-header,
+  .navbar-nav .open .dropdown-menu > li > a {
+    padding: 5px 15px 5px 0px !important;
+  }
+  .karusel .carousel .item img {
+    min-height: 230px;
+  }
+  .karusel .carousel .item .carousel-caption {
+    top: 10%;
+    font-size: 20px;
+  }
+  .karusel .carousel .item .tugma4 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .karusel .carousel .carousel-indicators {
+    left: 17%;
+    bottom: 20px;
+  }
+  .kabinet {
+    font-size: 20px !important;
+  }
+  .kabinet span {
+      font-size: 12px;
+      color:white;
+  }
+  .kabinet span a {
+      font-size: 12px;
+      color:white;
+  }
+  .magazin .spiska {
+    top: 8px;
+  }
+  .search .sena ul li {
+    margin-left: 0px !important;
+  }
+  .search .ung {
+    text-align: left !important;
+    padding: 0px !important;
+  }
+  .reklama img {
+    max-height: 326px;
+    height: 326px;
+  }
+  .more {
+    background: none;
+  }
+  .more .with_image {
+    background: url('../image/back1.jpg');
+    background-size: cover;
+    padding-bottom: 20px;
+  }
+  .more h3 {
+    font-size: 20px;
+  }
+  .more h5 {
+    font-size: 16px;
+  }
+  .more .tugma6 a {
+    font-size: 14px;
+    padding: 6px 30px;
+  }
+}

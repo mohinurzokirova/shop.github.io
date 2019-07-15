@@ -1,0 +1,307 @@
+
+lessphp
+« Back to home
+Online Compiler
+
+}
+
+187
+
+188
+
+189
+
+190
+
+191
+
+192
+
+193
+
+194
+
+195
+
+196
+
+197
+
+198
+
+199
+
+200
+
+201
+
+202
+
+203
+
+204
+
+205
+
+206
+
+207
+
+208
+
+209
+
+210
+
+211
+
+212
+
+	}
+
+}
+
+.rozi{
+
+	font-size: 13px;
+
+	color: #b6b6b6;
+
+	font-family: @regular;
+
+	margin-top: 15px;
+
+	a{
+
+		color: black;
+
+		text-decoration: underline;
+
+		margin-left: 5px;
+
+	}
+
+}
+
+.oformita{
+
+  color: white;
+
+  margin-top: 10px;
+
+  font-size: 13px;
+
+  font-family: 'Noto Sans Bold';
+
+  text-transform: uppercase;
+
+  border: 1px solid #d24a43;
+
+  background: #d24a43;
+
+  padding: 10px 18px;
+
+  transition: 0.7s;
+
+  border-radius: 25px;
+
+  margin-top: 25px;
+
+}
+
+lessphp v0.4.0
+Output:
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/regular/NotoSans-Regular.woff2') format('woff2'), url('../fonts/regular/NotoSans-Regular.woff') format('woff'), url('../fonts/regular/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans Bold';
+  src: url('../fonts/bold/NotoSans-Bold.woff2') format('woff2'), url('../fonts/bold/NotoSans-Bold.woff') format('woff'), url('../fonts/bold/NotoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+.paddingsiz {
+  padding: 0px;
+}
+.qoravoy {
+  background: #242424;
+}
+.oformit {
+  padding-top: 40px;
+}
+.poluchatel {
+  color: black;
+  font-family: 'Noto Sans Bold';
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.poluchatel span {
+  font-family: 'Noto Sans';
+  color: #595959;
+}
+.manzil {
+  margin-top: 40px;
+}
+.manzil table td {
+  padding-right: 12px;
+  color: #242424;
+  font-size: 15px;
+  padding-bottom: 12px;
+  font-family: 'Noto Sans Bold';
+}
+.manzil table td .ques {
+  color: #868686;
+  font-size: 13px;
+  font-family: 'Noto Sans';
+}
+.manzil table td .change {
+  color: #418ad4;
+  font-size: 13px;
+  font-family: 'Noto Sans';
+  text-decoration: underline;
+}
+.or {
+  color: #868686;
+  font-size: 14px;
+  font-family: 'Noto Sans';
+  margin-bottom: 20px;
+}
+.or img {
+  margin-top: 10px;
+}
+.details2 {
+  margin-top: 20px;
+}
+.little-img {
+  width: 100px;
+  display: block;
+  vertical-align: middle;
+}
+.little-img img {
+  width: 100%;
+  border: 2px solid #e6e5e5;
+}
+.detallar {
+  margin-top: 20px;
+}
+.white .title2 {
+  font-size: 14px;
+  margin-top: 0px;
+}
+.white .sena2 .old {
+  font-size: 13px;
+}
+.white .sena .news3 {
+  font-size: 13px;
+}
+.paddingli2 {
+  padding-left: 12px;
+  width: 260px;
+}
+.colors2 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding-left: 15px;
+}
+.paddingli3 {
+  padding-left: 20px;
+}
+.gray2 {
+  background: white !important;
+  width: auto;
+  padding-left: 0px !important;
+}
+.sizes2 {
+  padding-left: 40px;
+}
+.kommentka {
+  margin-top: 20px;
+}
+.kommentka textarea {
+  border-radius: 25px;
+}
+.kommentka .form-control {
+  border-radius: 25px;
+  height: 80px;
+  padding: 15px;
+}
+.kommentka p {
+  font-family: 'Noto Sans';
+  font-size: 13px;
+  color: #b6b6b6;
+  padding: 10px 20px;
+}
+.sposob {
+  margin-top: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.tanla .radio {
+  margin-top: 20px;
+}
+.tanla input {
+  margin-top: 15px;
+}
+.tanla label {
+  font-size: 15px;
+  font-family: 'Noto Sans Bold';
+  color: black;
+}
+.tanla label td {
+  padding-right: 10px;
+}
+.tanla label .matni {
+  color: #838383;
+  font-size: 13px;
+  font-family: 'Noto Sans';
+}
+.obshiy {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 13px;
+  font-family: 'Noto Sans';
+}
+.obshiy span {
+  color: #aa2119;
+  font-size: 16px;
+  margin-left: 10px;
+  font-family: 'Noto Sans Bold';
+}
+.rozi {
+  font-size: 13px;
+  color: #b6b6b6;
+  font-family: 'Noto Sans';
+  margin-top: 15px;
+}
+.rozi a {
+  color: black;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.oformita {
+  color: white;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: 'Noto Sans Bold';
+  text-transform: uppercase;
+  border: 1px solid #d24a43;
+  background: #d24a43;
+  padding: 10px 18px;
+  transition: 0.7s;
+  border-radius: 25px;
+  margin-top: 25px;
+}

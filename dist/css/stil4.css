@@ -1,0 +1,494 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/regular/NotoSans-Regular.woff2') format('woff2'), url('../fonts/regular/NotoSans-Regular.woff') format('woff'), url('../fonts/regular/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans Bold';
+  src: url('../fonts/bold/NotoSans-Bold.woff2') format('woff2'), url('../fonts/bold/NotoSans-Bold.woff') format('woff'), url('../fonts/bold/NotoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+.paddingsiz {
+  padding: 0px;
+}
+.reklama3 .border {
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+}
+.reklama3 .border-2 {
+  border-right: none;
+}
+.reklama3 .first,
+.reklama3 .second {
+  background: #242424;
+  padding: 20px;
+  text-align: right;
+  color: white;
+  font-size: 25px;
+  font-family: 'Noto Sans';
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.reklama3 .first span,
+.reklama3 .second span {
+  font-family: 'Noto Sans Bold';
+}
+.reklama3 .first a,
+.reklama3 .second a {
+  color: white;
+  transition: 1s;
+}
+.reklama3 .first a:hover,
+.reklama3 .second a:hover,
+.reklama3 .first a:focus,
+.reklama3 .second a:focus {
+  text-decoration: none;
+  text-shadow: 2px 1px 1px black;
+}
+.reklama3 .second {
+  background: #d24a43;
+  text-align: left;
+}
+.reklama3 .pokupay {
+  position: absolute;
+  top: 55%;
+  text-transform: uppercase;
+  left: 8%;
+}
+.reklama3 .pokupay h3 {
+  color: white;
+  font-size: 38px;
+  font-family: 'Noto Sans Bold';
+}
+.reklama3 .pokupay h5 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Noto Sans';
+}
+.reklama3 .click {
+  position: absolute;
+  bottom: 10%;
+  left: 12%;
+}
+.reklama3 .click .btn {
+  color: white;
+  padding: 7px 22px;
+  font-size: 18px;
+  font-family: 'Noto Sans Bold';
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 2px solid white;
+  transition: 1s;
+}
+.reklama3 .click .btn:hover,
+.reklama3 .click .btn:focus {
+  border: 2px solid black;
+  color: black;
+}
+.product {
+  min-height: 550px;
+  border-bottom: 10px solid #f8f8f8;
+}
+.product .sena {
+  padding-left: 50px;
+}
+.product .ramka {
+  padding-top: 30px;
+  border-right: 4px solid #f8f8f8;
+}
+.rangsiz {
+  background: white;
+}
+.karusellar .foiz {
+  width: 33.33333333% !important;
+  border-top: 1px solid #f1efef;
+  border-bottom: 1px solid #f1efef;
+  margin-bottom: 30px;
+  transition: 0.5s;
+  background: url('kiwi.svg');
+}
+.karusellar .foiz:hover,
+.karusellar .foiz:focus {
+  -webkit-box-shadow: 0 0 15px #535151  ;
+  box-shadow: 0 0 15px #535151  ;
+}
+.karusellar .carousel .carousel-control {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  position: absolute;
+  top: 40%;
+  opacity: 1;
+  width: 5%;
+}
+.karusellar .carousel .carousel-control i {
+  box-shadow: none;
+  opacity: 1;
+  color: #c4c4c4;
+  font-size: 40px;
+  text-shadow: none;
+  transition: 0.5s;
+}
+.karusellar .carousel .carousel-control i:hover,
+.karusellar .carousel .carousel-control i:focus {
+  color: black;
+}
+.buy {
+  padding-bottom: 50px;
+}
+.buy .btn {
+  font-size: 16px;
+  font-family: 'Noto Sans';
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 8px 25px;
+  color: black;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.buy .btn:hover,
+.buy .btn:focus {
+  background: black;
+  color: white;
+  border-color: white;
+}
+.buy .red {
+  color: #d24a43;
+  border-color: #d24a43;
+}
+.buy .red:hover,
+.buy .red:focus {
+  background: #d24a43;
+  color: white;
+  border-color: white;
+}
+.buy .super {
+  color: black;
+  font-size: 14px;
+  font-family: 'Noto Sans';
+}
+.buy .url {
+  font-family: 'Noto Sans Bold';
+  color: black;
+}
+.buy .url2 {
+  color: #d24a43;
+}
+.more2 {
+  margin-top: 0px;
+}
+.tabli2 {
+  min-height: 710px;
+}
+.auksion {
+  background: url('../image/auksion.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 30px;
+}
+.auksion .predlagat,
+.auksion .enter {
+  background: rgba(250, 250, 250, 0.5);
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 60px;
+  height: 420px;
+}
+.auksion .predlagat h3,
+.auksion .enter h3 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-top: 0px;
+  font-family: 'Noto Sans';
+}
+.auksion .predlagat h3 span,
+.auksion .enter h3 span {
+  font-family: 'Noto Sans Bold';
+}
+.auksion .predlagat h4,
+.auksion .enter h4 {
+  font-size: 21px;
+  font-family: 'Noto Sans';
+  color: #3f3e3e;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.auksion .predlagat h4 span,
+.auksion .enter h4 span {
+  color: #ff0000;
+}
+.auksion .predlagat .text,
+.auksion .enter .text {
+  font-size: 13px;
+  font-family: 'Noto Sans';
+  color: #141414;
+  margin-top: 30px;
+  text-align: right;
+}
+.auksion .predlagat .see .btn,
+.auksion .enter .see .btn {
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Noto Sans Bold';
+  border: 2px solid #c3c2c3;
+  border-radius: 25px;
+  padding: 10px 40px;
+  margin-top: 20px;
+  margin-left: 80px;
+  transition: 0.5s;
+}
+.auksion .predlagat .see .btn:hover,
+.auksion .enter .see .btn:hover,
+.auksion .predlagat .see .btn:focus,
+.auksion .enter .see .btn:focus {
+  background: #c3c2c3;
+  color: white;
+}
+.auksion .enter {
+  background: white;
+}
+.auksion .enter .voyti {
+  color: black;
+  font-family: 'Noto Sans Bold';
+  font-size: 15px;
+}
+.auksion .ili {
+  font-size: 13px;
+  font-family: 'Noto Sans';
+  color: #a7a6a6;
+}
+.auksion .ili a {
+  color: #d24a43;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.auksion .ili .qora {
+  color: black;
+  margin: 0px;
+}
+.auksion .forma {
+  margin-top: 20px;
+  padding-right: 30px;
+}
+.auksion .forma .form-control {
+  border-radius: 20px;
+}
+.auksion .forma .btn {
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Noto Sans Bold';
+  border: 2px solid #d24a43;
+  border-radius: 25px;
+  padding: 10px 40px;
+  margin-top: 20px;
+  margin-left: 80px;
+  background: white;
+  transition: 0.5s;
+}
+.auksion .forma .btn:hover,
+.auksion .forma .btn:focus {
+  background: #d24a43;
+  color: white;
+}
+.auksion .zabil {
+  margin-left: 100px;
+}
+.auksion .qora {
+  color: black;
+}
+.auksion .sot {
+  font-size: 17px;
+  font-family: 'Noto Sans Bold';
+  text-transform: uppercase;
+  color: black;
+}
+.auksion .sot span {
+  color: #757575;
+  font-family: 'Noto Sans';
+}
+.auksion .sot .ikonki {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .reklama3 .pokupay {
+    top: 35%;
+  }
+  .buy .super {
+    font-size: 12px;
+  }
+  .auksion .sot {
+    font-size: 15px;
+  }
+  .auksion .predlagat .see .btn,
+  .auksion .enter .see .btn {
+    margin-left: 50px;
+  }
+  .auksion .predlagat .text,
+  .auksion .enter .text {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .reklama img {
+    max-height: 310px;
+  }
+  .reklama3 .pokupay {
+    top: 35%;
+  }
+  .reklama3 .pokupay h3 {
+    font-size: 25px;
+  }
+  .reklama3 .pokupay h5 {
+    font-size: 20px;
+  }
+  .buy {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .buy .btn {
+    margin-bottom: 15px;
+  }
+  .auksion .predlagat h3,
+  .auksion .enter h3 {
+    font-size: 20px;
+  }
+  .auksion .predlagat h4,
+  .auksion .enter h4 {
+    font-size: 15px;
+  }
+  .auksion .predlagat .see .btn,
+  .auksion .enter .see .btn {
+    margin-left: 0px;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  .auksion .sot {
+    font-size: 12px;
+  }
+  .auksion .sot .ikonki img {
+    max-width: 80%;
+  }
+  .auksion .zabil {
+    margin-left: 0px;
+  }
+  .auksion .forma .btn {
+    margin-left: 0px;
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  .product .sena {
+    padding-left: 0px;
+  }
+  .name4 {
+    font-size: 14px;
+  }
+  .product {
+    min-height: 600px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .product .sena {
+    padding-left: 0px;
+  }
+  .karusellar .foiz {
+    width: 50% !important;
+  }
+  .buy .btn {
+    margin-bottom: 20px;
+  }
+  .buy .super {
+    margin-bottom: 20px;
+  }
+  .product {
+    min-height: auto !important;
+  }
+  .reklama3 .pokupay {
+    top: 25%;
+  }
+  .reklama3 .pokupay h3 {
+    font-size: 22px;
+  }
+  .reklama3 .pokupay h5 {
+    font-size: 18px;
+  }
+  .reklama3 .click {
+    bottom: 10%;
+  }
+  .name4 {
+    font-size: 13px;
+  }
+  .auksion {
+    text-align: center;
+  }
+  .auksion .predlagat,
+  .auksion .enter {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .auksion .enter {
+    margin: 0px !important;
+    padding-left: 30px;
+    height: auto;
+  }
+  .auksion .predlagat {
+    height: auto;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+  .auksion .predlagat .text,
+  .auksion .enter .text {
+    text-align: center;
+  }
+  .auksion .predlagat h3,
+  .auksion .enter h3 {
+    font-size: 20px;
+  }
+  .auksion .predlagat h4,
+  .auksion .enter h4 {
+    font-size: 16px;
+  }
+  .auksion .predlagat .see .btn,
+  .auksion .enter .see .btn {
+    margin-left: 0px;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  .auksion .forma .btn {
+    margin-left: 0px;
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  .big5 {
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .reklama3 .pokupay {
+    top: 15%;
+  }
+  .reklama3 .pokupay h3 {
+    font-size: 18px;
+  }
+  .reklama3 .click {
+    bottom: 10%;
+  }
+}
+.foiz:hover,
+.foiz:focus {
+  -webkit-box-shadow: 0 0 20px #535151 !important;
+  box-shadow: 0 0 20px #535151 !important;
+}
