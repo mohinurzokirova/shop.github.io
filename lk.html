@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Codrops" />
+    <title>Yangi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+    <script type="text/javascript" src="dist/js/less2.7.1.min.js"></script>
+  </head>
+  <body>
+    <header class="hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 paddingsiz">
+            <div class="col-md-2 col-sm-12 logo">
+              <a href="index.html">SALOM <span>UZ</span></a>
+            </div> <!-- //logo -->
+
+            <div class="col-md-7 col-sm-9">
+               <div class="input-group">
+                <input type="text" class="form-control" aria-label="..." placeholder="пример: одежда">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-default dropdown-toggle chap-bordersiz" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Искать в <span>АТ</span> и <span class="qora">ИМ</span> <i class="fa fa-angle-down"></i></button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </div><!-- /btn-group -->
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Все категории <i class="fa fa-angle-down"></i></button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </div><!-- /btn-group -->
+                <span class="input-group-btn">
+                  <button class="btn btn-default go" type="button"><i class="fa fa-search"></i></button>
+                </span>
+              </div><!-- /input-group -->
+            </div> <!-- //col-md-7 -->
+
+            <div class="col-md-3 col-sm-3">
+              <div class="input-group-btn kichik">
+                  <button type="button" class="btn btn-default dropdown-toggle bordersiz" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ру <i class="fa fa-angle-down"></i></button>
+                  <ul class="dropdown-menu language">
+                    <li><a href="#">En</a></li>
+                    <li><a href="#">Uz</a></li>
+                  </ul>
+              </div><!-- /btn-group -->
+
+              <div class="input-group-btn kichik">
+                  <button type="button" class="btn btn-default dropdown-toggle bordersiz" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  <i class="fa fa-user"></i> <i class="fa fa-angle-down"></i></button>
+                  <ul class="dropdown-menu language">
+                    <li><a href="#"> Войти</a></li>
+                    <li><a href="#"> Регистрация</a></li>
+                  </ul>
+              </div><!-- /btn-group -->
+              <div class="input-group-btn kichik hidden-xs">
+                <a class="btn btn-default sonli bordersiz" href="lk.html">
+                   <img src="dist/image/korzinka.png" class="korzinkaa">
+                   <div class="raqam">
+                     5
+                   </div>
+                </a>
+              </div>   
+            </div>
+          </div> <!-- //col-md-12 -->
+        </div> <!-- //row -->
+      </div> <!-- //container -->
+    </header>
+
+    <div class="kabinet">
+      <div class="container">
+        <div class="col-md-12 col-xs-12 col-sm-12 paddingsiz">
+          личный <span>кабинет</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tabli">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 paddingsiz kulrang">
+            <div role="tabpanel">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                  <a href="#obv" aria-controls="home" role="tab" data-toggle="tab">Объявления</a>
+                </li>
+                <li role="presentation">
+                  <a href="#sob" aria-controls="tab" role="tab" data-toggle="tab">Сообщения </a>
+                </li>
+
+                <li role="presentation">
+                  <a href="#nas" aria-controls="tab" role="tab" data-toggle="tab">Настройки</a>
+                </li>
+
+                <li role="presentation">
+                  <a href="#dos" aria-controls="tab" role="tab" data-toggle="tab">Доставка</a>
+                </li>
+
+                <li role="presentation">
+                  <a href="#kor" aria-controls="tab" role="tab" data-toggle="tab">Корзина</a>
+                </li>
+
+                <li role="presentation">
+                  <a href="#lay" aria-controls="tab" role="tab" data-toggle="tab">Лайки</a>
+                </li>
+
+                <li role="presentation">
+                  <a href="#ist" aria-controls="tab" role="tab" data-toggle="tab">История заказов</a>
+                </li>
+              </ul>
+            
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane elon" id="obv">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="sarlavha">
+                      объявления
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 paddingsiz borderli eloncha">
+                      <div class="col-md-5 col-sm-12 col-xs-5">
+                        <div class="thumb">
+                          <img src="dist/image/1.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-md-7 col-sm-12 col-xs-7">
+                        <div class="name">
+                          <a href="#">Вино</a>
+                        </div>
+                        <div class="sena">
+                          30 000 сум
+                        </div>
+                        <div class="edit">
+                          <a href="#">Редактировать</a>
+                        </div>
+                         <div class="delete">
+                          <a data-toggle="modal" href='#modal-id'>Удалить</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 paddingsiz borderli eloncha">
+                      <div class="col-md-5 col-sm-12 col-xs-5">
+                        <div class="thumb">
+                          <img src="dist/image/2.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-md-7 col-sm-12 col-xs-7">
+                        <div class="name">
+                          <a href="#">Вино</a>
+                        </div>
+                        <div class="sena">
+                          30 000 сум
+                        </div>
+                        <div class="edit">
+                          <a href="#">Редактировать</a>
+                        </div>
+                         <div class="delete">
+                          <a data-toggle="modal" href='#modal-id'>Удалить</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12 paddingsiz borderli eloncha">
+                      <div class="col-md-5 col-sm-12 col-xs-5">
+                        <div class="thumb">
+                          <img src="dist/image/3.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-md-7 col-sm-12 col-xs-7">
+                        <div class="name">
+                          <a href="#">Вино</a>
+                        </div>
+                        <div class="sena">
+                          30 000 сум
+                        </div>
+                        <div class="edit">
+                          <a href="#">Редактировать</a>
+                        </div>
+                         <div class="delete">
+                          <a data-toggle="modal" href='#modal-id'>Удалить</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-sm-12 col-xs-12 tugma2">
+                      <button class="btn">+ подать объявление</button>
+                    </div>
+                  </div>
+                </div> <!-- //Объявления -->
+
+                <div role="tabpanel" class="tab-pane  xabar" id="sob">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="sarlavha">
+                      сообщения
+                    </div>
+                    <div role="tabpanel">
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                          <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Полученные </a>
+                        </li>
+                        <li role="presentation">
+                          <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Отправленные</a>
+                        </li>
+                         <li role="presentation">
+                          <a href="#ichki" aria-controls="tab" role="tab" data-toggle="tab">Xabarning ochganda</a>
+                        </li>
+                      </ul>
+                    
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                          <span class="burchak">
+                            <img src="dist/image/burchak.png">
+                          </span>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                              <table>
+                                <tr>
+                                  <td>
+                                    <div class="friend" style="background: url('dist/image/user.png');">
+                                    </div>
+                                  </td>
+                                  <td class="fo">
+                                    <div class="imya">
+                                      <a href="#">Farrux <i class="fa fa-circle yoniq"></i></a>
+                                    </div>
+                                    <div class="massage">
+                                      <a href="#"> Sizga e'lon bo'yicha murojaat .. </a>
+                                    </div>
+                                  </td>
+                                  <td class="vaqt">
+                                    <span class="soat">15:31</span>
+                                    <span>11.12.2017</span>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td>
+                                    <div class="friend" style="background: url('dist/image/user2.png');">
+                                    </div>
+                                  </td>
+                                  <td class="fo">
+                                    <div class="imya">
+                                     <a href="#"> Selin <i class="fa fa-circle uchiq"></i> </a>
+                                    </div>
+                                    <div class="massage">
+                                      <a href="#"> Xabaringizni oldim, rahmat. </a>
+                                    </div>
+                                  </td>
+                                  <td class="vaqt">
+                                    <span class="soat">15:31</span>
+                                    <span>11.12.2017</span>
+                                  </td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div> <!-- //home -->
+                        <div role="tabpanel" class="tab-pane" id="tab">
+                          <span class="burchak burchak2">
+                            <img src="dist/image/burchak.png">
+                          </span>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                              <table>
+
+                                <tr>
+                                  <td>
+                                    <div class="friend" style="background: url('dist/image/user2.png');">
+                                    </div>
+                                  </td>
+                                  <td class="fo">
+                                    <div class="imya">
+                                     <a href="#"> Selin <i class="fa fa-circle uchiq"></i> </a>
+                                    </div>
+                                    <div class="massage">
+                                      <a href="#"> Xabaringizni oldim, rahmat. </a>
+                                    </div>
+                                  </td>
+                                  <td class="vaqt">
+                                    <span class="soat">15:31</span>
+                                    <span>11.12.2017</span>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td>
+                                    <div class="friend" style="background: url('dist/image/user.png');">
+                                    </div>
+                                  </td>
+                                  <td class="fo">
+                                    <div class="imya">
+                                      <a href="#">Farrux <i class="fa fa-circle yoniq"></i></a>
+                                    </div>
+                                    <div class="massage">
+                                      <a href="#"> Sizga e'lon bo'yicha murojaat .. </a>
+                                    </div>
+                                  </td>
+                                  <td class="vaqt">
+                                    <span class="soat">15:31</span>
+                                    <span>11.12.2017</span>
+                                  </td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div> <!-- //tab -->
+
+                        <div role="tabpanel" class="tab-pane" id="ichki">
+                          <span class="burchak burchak2">
+                            <img src="dist/image/burchak.png">
+                          </span>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                              <table>
+
+                                <tr>
+                                  <td>
+                                    <div class="friend friend2" style="background: url('dist/image/user2.png');">
+                                    </div>
+                                  </td>
+                                  <td class="fo">
+                                    <div class="massage massage2">
+                                      <a href="#"> Xabaringizni oldim, rahmat. Sizga vaqtingizni ayamay javob yozganiz uchun tashakkur </a>
+                                    </div>
+                                  </td>
+                                  <td class="vaqt">
+                                    <span class="soat">15:31</span>
+                                    <span>11.12.2017</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td colspan="3" class="xabar_yozish"> 
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Сообщение">
+                                      <span class="input-group-btn one">
+                                        <button class="btn btn-default" type="button"><i class="fa fa-smile-o"></i></button>
+                                      </span>
+                                      <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button"><i class="fa fa-angle-right"></i></button>
+                                      </span>
+                                    </div><!-- /input-group -->
+                                  </td>
+                                </tr>
+
+                              </table>
+                            </div>
+                          </div>
+                        </div> <!-- //tab -->
+                      </div>
+                    </div>
+                  </div>  
+                </div><!--  //Сообщения   -->        
+
+                <div role="tabpanel" class="tab-pane setting " id="nas">
+                  <div class="col-md-12 col-sm-12 hidden-xs">
+                    <div class="sarlavha">
+                      Настройки
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 paddingsiz nastroyka">
+                       <div class="col-md-7 col-sm-12 col-xs-12 paddingsiz">
+                          <div class="sarlavha sarlavha2">
+                              контактные <span>данные</span>
+                          </div>
+
+                          <form action="" method="POST" role="form">
+                            <div class="form-group">
+                              <div class="row">
+                                 <div class="col-md-3 col-xs-3 col-sm-3 paddingli">
+                                      <label for="">Добaвить фото</label>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9 col-xs-9">
+                                    <div class="rel thumb">
+                                        <label class="custom-file-upload">
+                                             <input type='file'/>
+                                        </label>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div> <!-- //form-group -->
+
+                            <div class="form-group paddingli2">
+                              <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-12 paddingli3">
+                                  <label for="">Контактное лицо</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-12 ">
+                                  <input type="text" class="form-control" id="" placeholder="Ф.И.О">
+                                </div>
+                              </div>
+                            </div> <!-- //form-group -->
+
+                            <div class="form-group paddingli2">
+                              <div class="row">
+                                <div class="col-md-3 col-xs-12 col-sm-3 paddingli3">
+                                  <label for="">Когда родились</label>
+                                </div>
+                                <div class="col-md-9 col-xs-12 col-sm-9">
+                                  <input type="text" class="form-control" id="" placeholder="день месяц год">
+                                </div>
+                              </div>
+                            </div> <!-- //form-group -->
+
+                            <div class="form-group paddingli2">
+                              <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-12 paddingli3">
+                                  <label for="">Ваш номер тел</label>
+                                </div>
+                                <div class="col-md-9 col-xs-12 col-sm-9">
+                                  <input type="text" class="form-control" id="" placeholder="Телефон номер">
+                                </div>
+                              </div>
+                            </div> <!-- //form-group -->
+
+                            <div class="form-group paddingli2">
+                              <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-12 paddingli3">
+                                  <label for="">Ваш пол</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                 <select class="form-control">
+                                   <option value="m">муж</option>
+                                   <option value="m">жен</option>
+                                 </select>
+                                </div>
+                              </div>
+                            </div> <!-- //form-group -->
+
+                            <div class="form-group">
+                              <div class="row">
+                                 <div class="col-md-3 col-sm-3  col-xs-12 paddingli3">
+                                      <label for="">Добавить копию паспорта</label>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9 col-xs-12">
+                                    <div class="rel thumb thumb2">
+                                        <label class="custom-file-upload">
+                                             <input type='file'/>
+                                        </label>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div> <!-- //form-group -->
+
+                            <div class="form-group paddingli2">
+                              <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-12 paddingli3">
+                                  <label for="">Укажите свое  место положение:</label>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                  <img src="dist/image/map.jpg">
+                                </div>
+                              </div>
+                            </div> <!-- //form-group -->
+
+                            <div class="col-md-9 col-sm-9 col-md-offset-3 col-xs-12 paddingsiz">
+                              <button type="submit" class="btn sohranit">сохранить</button>
+                            </div>
+                          </form>
+
+                          <div class="col-md-12 col-sm-12 col-xs-12 email">
+                            <div class="sarlavha sarlavha2">
+                                изменить  <span>еmail</span>
+                            </div>
+                            <form action="" method="POST" role="form">
+                              <div class="form-group paddingli2">
+                                <div class="row">
+                                  <div class="col-md-3 col-sm-3 col-xs-12 paddingli3">
+                                    <label for="">Ваш email</label>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9 col-xs-12">
+                                    <input type="text" class="form-control" id="">
+                                  </div>
+                                </div>
+                              </div> <!-- //form-group -->
+
+                              <div class="form-group paddingli2">
+                                <div class="row">
+                                  <div class="col-md-3 col-sm-3 col-xs-12 paddingli3">
+                                    <label for="">Новый email</label>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9">
+                                    <input type="text" class="form-control" id="">
+                                  </div>
+                                </div>
+                              </div> <!-- //form-group -->
+
+                              <div class="col-md-9 col-md-offset-3 col-xs-12 col-sm-9 paddingsiz">
+                                <button type="submit" class="btn sohranit">изменить email</button>
+
+                                 <button type="submit" class="btn dobavit">добавить email</button>
+                              </div>
+                            </form>
+                          </div> <!-- //email -->
+
+                          <div class="col-md-12 col-sm-12 hidden-xs email">
+                            <div class="sarlavha sarlavha2">
+                                связать  <span>с соц сетью</span>
+                            </div>
+                            <div class="col-md-9  col-sm-9 col-xs-12 col-md-offset-3 paddingsiz setlar">
+                              <a href="#"><img src="dist/image/vkontakt.jpg"></a>
+                              <a href="#"><img src="dist/image/gplus.jpg"></a>
+                              <a href="#"><img src="dist/image/facebook.jpg"></a>
+                            </div>
+                          </div>
+                        </div> <!-- //col-md-7 -->
+
+                        <div class="col-md-5 col-sm-12 col-xs-12 yuridik">
+                          <div class="sarlavha sarlavha2">
+                              юридическое  <span>лицо</span>  <span class="qizil"> (продавец)</span>
+                          </div>
+                          <div class="diqqat">
+                            <div class="qizil">
+                              Внимание! Ваш статус сейчас не “юр лицо”  
+                            </div>
+
+                            <div class="black">
+                              Перейдя в этот статус, Вы сможете продавать свои товары в “интернет магазине” через нашу систему. Покупать вы уже не сможете
+                            </div>
+
+                            <div class="col-sm-12 col-sm-12 col-xs-12 tugma2">
+                              <button class="btn">перейти в юр лицо</button>
+                            </div>
+                          </div>
+                        </div> <!-- //col-md-5 -->
+                    </div>  
+                  </div>
+                </div> <!-- //settings -->
+
+                <div role="tabpanel" class="tab-pane  xabar " id="dos">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="sarlavha">
+                      доставка
+                    </div>
+
+                    <div class="dostavka">
+                      <div class="sarlavha">
+                        <span><img src="dist/image/car.png"></span> Оформить доставку
+                      </div>
+                      <div class="about">
+                        <div class="qizil">
+                          Внимание! “Доставить на дом” Платная услуга! 1км = 1500 сум.
+                        </div>
+                        <div class="qora">
+                          Доставка осуществляется в пределах города Ташкент. За пределы города сумма доставки увеличивается.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 col-xs-12 paddingsiz">
+                      <div class="col-md-4 col-sm-4 col-xs-12 paddingsiz borderli eloncha">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <div class="thumb">
+                            <img src="dist/image/1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <div class="name">
+                            <a href="#">Вино</a>
+                          </div>
+                          <div class="sena">
+                            30 000 сум
+                          </div>
+                          <div class="edit">
+                            <a href="#">Редактировать</a>
+                          </div>
+                           <div class="delete">
+                            <a data-toggle="modal" href='#modal-id'>Удалить</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!--  //Dostavka   --> 
+                </div> <!-- //dostavkalar -->
+
+                <div role="tabpanel" class="tab-pane  xabar active" id="kor">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="sarlavha">
+                      корзина
+                    </div>
+
+                    <div class="col-md-12 col-sm-12  col-xs-12 search paddingsiz">
+                      <div class="col-md-6 col-sm-12 col-xs-12 paddingsiz izla">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Поиск">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                          </span>
+                        </div><!-- /input-group -->
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 search paddingsiz">
+                      <div class="col-md-6 col-sm-5 col-xs-12 paddingsiz sena">
+                       <form action="" method="POST" role="form">
+                         <div class="form-group">
+                           <label for="">По цене</label>
+                           <input type="text" id="" placeholder="от">
+                           <input type="text" id="" placeholder="до">
+                           <input type="button" name="" value="ок" class="submit">
+                         </div>
+                       </form>
+                      </div>
+
+                      <div class="col-md-6 col-sm-7 col-xs-12 ung sena">
+                        <ul class="list-unstyled list-inline">
+                          <li><a href="#">Новинки <i class="fa fa-angle-up"></i></a></li>
+                          <li><a href="#">По цене <i class="fa fa-angle-up"></i></a></li>
+                          <li><a href="#">По лайкам  <i class="fa fa-heart"></i><i class="fa fa-angle-up"></i></a></li>
+                        </ul>
+                      </div>
+                    </div> <!-- //col-md-12 -->
+
+                    <div class="col-md-12 col-sm-12 col-xs-12- tovar">
+                      <div class="col-md-3 col-sm-3 col-xs-12 foiz">
+                        <div class="thumb">
+                          <a href="#"><img src="dist/image/4.png"></a>
+                        </div>
+                        <div class="nomi">
+                          Гантели
+                        </div>
+                        <div class="narx">
+                          645 000 сўм
+                        </div>
+                        <div class="zakaz">
+                          <a href="#">Оформить заказ</a>
+                        </div>
+                        <div class="udalit2">
+                          <a href="#">Удалить с корзины</a>
+                        </div>
+                      </div> <!-- //foiz -->
+
+                      <div class="col-md-3 col-sm-3 col-xs-12 foiz">
+                        <div class="thumb">
+                          <a href="#"><img src="dist/image/5.png"></a>
+                        </div>
+                        <div class="nomi">
+                          Монитор
+                        </div>
+                        <div class="narx">
+                          1 645 000 сўм
+                        </div>
+                        <div class="zakaz">
+                          <a href="#">Оформить заказ</a>
+                        </div>
+                        <div class="udalit2">
+                          <a href="#">Удалить с корзины</a>
+                        </div>
+                      </div> <!-- //foiz -->
+
+                      <div class="col-md-3 col-sm-3 col-xs-12 foiz">
+                        <div class="thumb">
+                          <a href="#"><img src="dist/image/6.png"></a>
+                        </div>
+                        <div class="nomi">
+                          Жен туфли
+                        </div>
+                        <div class="narx">
+                         125 000 сўм
+                        </div>
+                        <div class="zakaz">
+                          <a href="#">Оформить заказ</a>
+                        </div>
+                        <div class="udalit2">
+                          <a href="#">Удалить с корзины</a>
+                        </div>
+                      </div> <!-- //foiz -->
+
+                      <div class="col-md-3 col-sm-3 col-xs-12 foiz">
+                        <div class="thumb">
+                          <a href="#"><img src="dist/image/7.png"></a>
+                        </div>
+                        <div class="nomi">
+                          Монитор
+                        </div>
+                        <div class="narx">
+                          1 645 000 сўм
+                        </div>
+                        <div class="zakaz">
+                          <a href="#">Оформить заказ</a>
+                        </div>
+                        <div class="udalit2">
+                          <a href="#">Удалить с корзины</a>
+                        </div>
+                      </div> <!-- //foiz -->
+
+                      <div class="col-md-3 col-sm-3 col-xs-12 foiz last">
+                        <div class="thumb">
+                          <a href="#"><img src="dist/image/5.png"></a>
+                        </div>
+                        <div class="nomi">
+                          Монитор
+                        </div>
+                        <div class="narx">
+                          1 645 000 сўм
+                        </div>
+                        <div class="zakaz">
+                          <a href="#">Оформить заказ</a>
+                        </div>
+                        <div class="udalit2">
+                          <a href="#">Удалить с корзины</a>
+                        </div>
+                      </div> <!-- //foiz -->
+                    </div>  <!-- //col-md-12 -->
+                  </div><!--  //Dostavka   --> 
+                </div> <!-- //korzinka -->
+
+                <div role="tabpanel" class="tab-pane xabar layk" id="lay">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="sarlavha">
+                     лайки. коментарии
+                    </div>
+
+                    <div role="tabpanel">
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                          <a href="#layki" aria-controls="home" role="tab" data-toggle="tab">Лайки </a>
+                        </li>
+                        <li role="presentation">
+                          <a href="#komment" aria-controls="tab" role="tab" data-toggle="tab">Коментарии</a>
+                        </li>
+                      </ul>
+                    
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="layki">
+                          <span class="burchak">
+                            <img src="dist/image/burchak.png">
+                          </span>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                              <table>
+                                <tr>
+                                  <td class="rasmi">
+                                    <img src="dist/image/6.png">
+                                  </td>
+                                  <td class="fo">
+                                    <div class="imya">
+                                     <a href="#">Красные лакированные туфли </a>
+                                    </div>
+                                    <div class="massage">
+                                      <a href="#"> Интернет магазин </a>
+                                    </div>
+                                  </td>
+                                  <td class="klass">
+                                    <i class="fa fa-heart"></i> 3
+                                  </td>
+                                </tr>  
+
+                                 <tr>
+                                  <td class="rasmi">
+                                    <img src="dist/image/5.png">
+                                  </td>
+                                  <td class="fo">
+                                    <div class="imya">
+                                     <a href="#">Красные лакированные туфли </a>
+                                    </div>
+                                    <div class="massage">
+                                      <a href="#"> Интернет магазин </a>
+                                    </div>
+                                  </td>
+                                  <td class="klass">
+                                    <i class="fa fa-heart"></i> 3
+                                  </td>
+                                </tr>  
+                              </table>
+                            </div>
+                          </div>
+                        </div> <!-- //layki -->
+
+                        <div role="tabpanel" class="tab-pane" id="komment">
+                          <span class="burchak burchak3">
+                            <img src="dist/image/burchak.png">
+                          </span>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                              <table>
+
+                                <tr>
+                                  <td class="fo">
+                                    <div class="massage massage2">
+                                      <a href="#">
+                                      <div class="time">
+                                         14:31, 11.12.2017
+                                      </div>
+                                       Хороший хлопок. Пушистый, мыгкий, белый. </a>
+                                    </div>
+                                  </td>
+                                  <td class="vaqt red">
+                                    <a href="#">Редактировать</a>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="fo">
+                                    <div class="massage massage2">
+                                      <a href="#">
+                                      <div class="time">
+                                         14:31, 11.12.2017
+                                      </div>
+                                       А нет. Я передумал. Плохой хлопок! </a>
+                                    </div>
+                                  </td>
+                                  <td class="vaqt red">
+                                    <a href="#">Редактировать</a>
+                                  </td>
+                                </tr>
+
+                              </table>
+                            </div>
+                          </div>
+                        </div> <!-- //komment -->
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- //layki -->
+
+                <div role="tabpanel" class="tab-pane xabar" id="ist">
+                  <div class="col-md-12 col-xs-12">
+                    <div class="sarlavha">
+                      история заказов
+                    </div>
+                  <div class="col-md-12 col-sm-12 col-xs-12 search paddingsiz">
+                        <div class="col-md-6 col-sm-12 col-xs-12  paddingsiz izla">
+                          <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Поиск">
+                            <span class="input-group-btn">
+                              <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                            </span>
+                          </div><!-- /input-group -->
+                        </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12  col-xs-12 search paddingsiz">
+                    <div class="col-md-6 col-sm-5  col-xs-12 paddingsiz sena">
+                     <form action="" method="POST" role="form">
+                       <div class="form-group">
+                         <label for="">По цене</label>
+                         <input type="text" id="" placeholder="от">
+                         <input type="text" id="" placeholder="до">
+                         <input type="button" name="" value="ок" class="submit">
+                       </div>
+                     </form>
+                    </div>
+
+                    <div class="col-md-6 col-sm-7 col-xs-12 ung sena">
+                      <ul class="list-unstyled list-inline">
+                        <li><a href="#">Новинки <i class="fa fa-angle-up"></i></a></li>
+                        <li><a href="#">По цене <i class="fa fa-angle-up"></i></a></li>
+                        <li><a href="#">По лайкам  <i class="fa fa-heart"></i><i class="fa fa-angle-up"></i></a></li>
+                      </ul>
+                    </div>
+                  </div> <!-- //col-md-12 -->
+
+                  <div class="col-md-12 col-sm-12 col-xs-12 tovar">
+                    <div class="col-md-3 col-sm-3 col-xs-12 foiz">
+                      <div class="thumb">
+                        <a href="#"><img src="dist/image/4.png"></a>
+                      </div>
+                      <div class="nomi">
+                        Гантели
+                      </div>
+                      <div class="narx">
+                        645 000 сўм
+                      </div>
+                      <div class="zakaz">
+                        <a href="#">Оформить заказ</a>
+                      </div>
+                      <div class="udalit2">
+                        <a href="#">Удалить с корзины</a>
+                      </div>
+                    </div> <!-- //foiz -->
+
+                    <div class="col-md-3 col-sm-3 col-xs-12 foiz">
+                      <div class="thumb">
+                        <a href="#"><img src="dist/image/5.png"></a>
+                      </div>
+                      <div class="nomi">
+                        Монитор
+                      </div>
+                      <div class="narx">
+                        1 645 000 сўм
+                      </div>
+                      <div class="zakaz">
+                        <a href="#">Оформить заказ</a>
+                      </div>
+                      <div class="udalit2">
+                        <a href="#">Удалить с корзины</a>
+                      </div>
+                    </div> <!-- //foiz -->
+
+                    <div class="col-md-3 col-sm-3 col-xs-12 foiz">
+                      <div class="thumb">
+                        <a href="#"><img src="dist/image/6.png"></a>
+                      </div>
+                      <div class="nomi">
+                        Жен туфли
+                      </div>
+                      <div class="narx">
+                       125 000 сўм
+                      </div>
+                      <div class="zakaz">
+                        <a href="#">Оформить заказ</a>
+                      </div>
+                      <div class="udalit2">
+                        <a href="#">Удалить с корзины</a>
+                      </div>
+                    </div> <!-- //foiz -->
+
+                    <div class="col-md-3 col-sm-3 col-xs-12 foiz">
+                      <div class="thumb">
+                        <a href="#"><img src="dist/image/7.png"></a>
+                      </div>
+                      <div class="nomi">
+                        Монитор
+                      </div>
+                      <div class="narx">
+                        1 645 000 сўм
+                      </div>
+                      <div class="zakaz">
+                        <a href="#">Оформить заказ</a>
+                      </div>
+                      <div class="udalit2">
+                        <a href="#">Удалить с корзины</a>
+                      </div>
+                    </div> <!-- //foiz -->
+
+                    <div class="col-md-3 col-sm-3 col-xs-12 foiz last">
+                      <div class="thumb">
+                        <a href="#"><img src="dist/image/5.png"></a>
+                      </div>
+                      <div class="nomi">
+                        Монитор
+                      </div>
+                      <div class="narx">
+                        1 645 000 сўм
+                      </div>
+                      <div class="zakaz">
+                        <a href="#">Оформить заказ</a>
+                      </div>
+                      <div class="udalit2">
+                        <a href="#">Удалить с корзины</a>
+                      </div>
+                    </div> <!-- //foiz -->
+                  </div>  <!-- //col-md-12 -->
+                 </div>
+               </div> <!-- //istoriya -->
+             </div>   
+            </div>
+          </div>
+        </div> <!-- //row -->
+      </div> <!-- //container -->
+    </div> <!-- //tabli -->
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 paddingsiz">
+            <div class="col-md-4 col-sm-4 hidden-xs paddingsiz">
+              <div class="col-md-4 col-sm-5">
+                <img src="dist/image/qr.png" class="qr">
+              </div>
+              <div class="col-md-7 col-sm-7 yetti">
+                <img src="dist/image/play.png" alt="">
+                <div class="skachat">
+                  Скачать  мобильное приложение
+                </div>
+              </div>
+            </div> <!-- //col-md-4 -->
+
+            <div class="col-md-3 col-sm-3">
+              <ul class="list-unstyled">
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Условие пользование</a></li>
+                <li><a href="#">Помощь</a></li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">Зарегистрироваться</a></li>
+              </ul>
+            </div> <!-- //col-md-3 -->
+
+            <div class="col-md-2 col-sm-2 linka hidden-xs">
+              <a href="#"><img src="dist/image/payme.png"></a>
+              <a href="#"><img src="dist/image/paynet.png"></a> <br>
+              <a href="#"><img src="dist/image/click.png"></a>
+              <a href="#"><img src="dist/image/uzcard.png"></a> 
+            </div> <!-- //col-md-2 -->
+
+            <div class="col-md-3 col-sm-3 ung">
+              <div class="tel">
+                + (998) 71 123-45-67
+              </div>
+               <div class="tel">
+               + (998) 71 123-45-67
+              </div>
+              <div class="mail">
+                <a href="#">mail.pochta.com</a>
+              </div>
+              <div class="linklar">
+                <a href="#"><img src="dist/image/twitter.jpg"></a>
+                <a href="#"><img src="dist/image/vkon.jpg"></a>
+                <a href="#"><img src="dist/image/instagram.jpg"></a>
+                <a href="#"><img src="dist/image/face.jpg"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- ///MODALLAR -->
+
+    <div class="modal fade" id="modal-id">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="sarlavha">
+              <span>удалить </span> объявление
+            </div>
+            <p>Вы действительно хотите удалить объявление?</p>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="col-md-8 paddingsiz borderli eloncha">
+                  <div class="col-md-5">
+                    <div class="thumb">
+                      <img src="dist/image/1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="name">
+                      <a href="#">Вино</a>
+                    </div>
+                    <div class="sena">
+                      30 000 сум
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 paddingsiz marginli">
+                  <button class="btn udalit">
+                    удалить
+                  </button>
+
+                  <button class="btn otmena udalit">
+                    отмена
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- //modal-content -->
+      </div> <!-- //modal-dialog -->
+    </div> <!-- //modal -->
+
+  
+  
+    <script src="dist/js/jQuery.js"></script>
+    <script type="text/javascript" src="dist/js/jquery.fancybox.min.js"></script>
+    <script src="dist/js/funk.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
